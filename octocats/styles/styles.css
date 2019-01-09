@@ -1,0 +1,194 @@
+/** {*/
+    /*box-sizing: border-box;*/
+/*}*/
+
+/*body   {*/
+    /*font-family: Helvetica, arial, sans-serif;*/
+/*}*/
+
+/*img {*/
+    /*width: 100%;*/
+/*}*/
+
+/*ul {*/
+    /*list-style: none;*/
+    /*padding: 0;*/
+/*}*/
+
+/*.octocat {*/
+    /*display: inline-block;*/
+    /*width: 30%;*/
+    /*height: 100%;*/
+/*}*/
+
+/*.octocat>a {*/
+    /*display: inline-block;*/
+    /*border: solid 1px #CACACA;*/
+    /*position: relative;*/
+    /*border-radius: 3px;*/
+
+    /*height: 100%;*/
+    /*width: 100%;*/
+/*}*/
+
+/*.octocat>a::after {*/
+    /*content: '';*/
+    /*height: 0;*/
+    /*width: 0px;*/
+    /*border-top: solid 10px #CACACA;*/
+    /*border-left: solid 10px transparent;*/
+    /*border-right: solid 10px transparent;*/
+
+    /*position: absolute;*/
+    /*top: 100%;*/
+    /*right: 1%;*/
+/*}*/
+
+/*.image-number::before  {*/
+    /*content: '#';*/
+/*}*/
+
+
+/*.image-footer  {*/
+    /*border-bottom: 1px solid #CACACA;*/
+    /*padding-top: 15px;*/
+    /*padding-bottom: 15px;*/
+    /*positon: realtive;*/
+/*}*/
+
+/*.image-number {*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*transform: translateY(-50%);*/
+    /*left: 0;*/
+/*}*/
+
+
+/*.authors>li>a {*/
+    /*display: inline-block;*/
+    /*width: 30px;*/
+/*}*/
+
+/*.authors   {*/
+    /*display: inline-block;*/
+/*}*/
+
+/*.authors img {*/
+ /*display: inline-block;*/
+ /*vertical-align: middle;*/
+ /*border-radius: 5px;*/
+/*}*/
+
+/*.image-caption {*/
+    /*text-align: right;*/
+/*}*/
+
+/*.octodex {*/
+    /*text-align: center;*/
+/*}*/
+
+
+
+* {
+ box-sizing: border-box;
+}
+
+body {
+ /*CSS property specifies a prioritized list of one or more font family names
+ and/or generic family names for the selected element*/
+ /*"safe" fonts are fonts which are so common that they're considered
+ to be universally available)*/
+ /*You should always include at least one generic family name in a font-family
+ list, since there's no guarantee that any given font is available. This lets
+ the browser select an acceptable fallback font when necessary.*/
+ font-family: Helvetica, arial, sans-serif;
+}
+
+img {
+ width: 100%;
+}
+
+ul {
+ list-style: none;
+ padding: 0;
+}
+
+.octocat {
+ /*inline-block elements are like inline elements but they can have a
+ width and height*/
+ display: inline-block;
+ width: 30%;
+ height: 100%;
+}
+
+.octocat>a {
+ display: inline-block;
+ border: solid 1px #CACACA;
+
+ /*The element is positioned according to the normal flow of the document,
+ and then offset relative to itself based on the values of top, right, bottom,
+ and left*/
+ position: relative;
+ border-radius: 3px;
+
+ height: 100%;
+ width: 100%;
+}
+
+.octocat>a::after {
+ content: "";
+
+ height: 0;
+ width: 0;
+
+ border-top: solid 10px #CACACA;
+
+ border-left: solid 10px transparent;
+ border-right: solid 10px transparent;
+
+ position: absolute;
+ top: 100%;
+ right: 1%;
+}
+
+.image-number::before {
+ content: "#";
+}
+
+.image-footer {
+ position: relative;
+ /*border-top: solid 1px #CACACA;*/
+ border-bottom: solid 1px #CACACA;
+ padding-top: 15px;
+ padding-bottom: 15px;
+}
+
+.image-number {
+ position: absolute;
+ top: 50%;
+ transform: translateY(-50%);
+ left: 0;
+}
+
+.authors>li>a {
+ display: inline-block;
+ width: 30px;
+}
+
+.authors {
+ display: inline-block;
+}
+
+.image-caption {
+ text-align: right;
+}
+
+/*.octodex>li:nth-child(3n+2)>a {*/
+ /*margin: auto 10px;*/
+/*}*/
+
+.octodex {
+ text-align: center;
+}
+
+
