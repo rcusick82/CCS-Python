@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e301a656-d4ae-4a85-91ce-ff9b92aab4f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../1.1/.idea/1.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1.1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1.1/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1.1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1.1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1.1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1.1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1.1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1.1/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../1.1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.1/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../1.1/styles/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -137,12 +131,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547044731128</updated>
-      <workItem from="1547044732824" duration="5684000" />
+      <workItem from="1547044732824" duration="5893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5684000" />
+    <option name="totallyTimeSpent" value="5893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="810" extended-state="0" />
